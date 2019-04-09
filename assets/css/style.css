@@ -1,0 +1,26 @@
+body {
+    margin: auto;
+}
+
+h4 {
+    font-family: 'Exo', sans-serif;
+    color: white;
+    position: relative;
+    z-index: 4;
+}
+
+#introBox {
+    margin-top: 400px;
+}
+
+#portfoliobtn {
+    background: transparent;
+    border: solid #777 2px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Merienda', cursive;
+    padding: 5px 15px 5px 15px;
+    position: relative;
+    right: -512px;
+    z-index: 4;
+}
