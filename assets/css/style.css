@@ -82,8 +82,8 @@ h2 {
     border: solid #777 1px;
     font-family: 'Exo', sans-serif;
     color: #ffffff;
-    -webkit-animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-    animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    -webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
 #myPicture {
@@ -96,26 +96,74 @@ h2 {
 
 #mainContent {
     display: none;
+    overflow-y: auto;
     position: relative;
     top: -610px;
-    right: -268px;
+    right: -175px;
     z-index: 4;
     background:rgba(255,255,255,0.5);
     height: 610px;
     width: 925px;
-    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    	-webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-#logoBox {
+.header {
+    font-family: 'Exo', sans-serif;
     position: relative;
-    top: -300px;
-    width: 10px;
-    background: white;
-    z-index: 5;
+    top: 40px;
+    right: -100px;
+}
+
+#verticalLine {
+    position: relative;
+    top: 50px;
+    right: -100px;
+    border-left: solid #696969 4px;
+    height: 800px;
 }
 
 .logos {
+    position: relative;
+    top: -810px;
+    right: -760px;
     width: 50px;
     height: 50px;
+    margin: 4px;
+}
+
+#aboutMeBox {
+    -webkit-animation: tracking-in-expand 0.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 0.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+#pictureBackground {
+    top: 200px;
+    width: 300px;
+}
+
+.aboutMePictures {
+    position: relative;
+    opacity: 0.5;
+    margin: 2px;
+    width: 250px;
+    height: 300px;
+}
+
+#projectBox {
+    display: none;
+    -webkit-animation: tracking-in-expand 0.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 0.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+#contactBox {
+    display: none;
+    -webkit-animation: tracking-in-expand 0.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 0.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+#resumeBox {
+    display: none;
+    -webkit-animation: tracking-in-expand 0.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 0.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
