@@ -4,7 +4,7 @@ body {
 
 h1 {
     font-family: 'Exo', sans-serif;
-    color: white;
+    color: #ffffff;
     border-bottom: solid white 2px;
     position: relative;
     right: -430px;
@@ -18,13 +18,13 @@ hr {
     position: relative;
     right: -300px;
     top: -50px;
-    z-index: 2; 
+    z-index: 4; 
 }
 
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
-    color: crimson;
+    color: #8b0000;
     position: relative;
     right: -300px;
     top: -50px;
@@ -37,7 +37,7 @@ h2 {
 
 #portfoliobtn {
     background: transparent;
-    border: solid #777 2px;
+    border: solid darkgrey 2px;
     color: white;
     font-size: 20px;
     font-family: 'Merienda', cursive;
@@ -53,6 +53,69 @@ h2 {
     animation: jello-horizontal 1s both;
 }
 
-#aboutMeBox {
+#nav {
     display: none;
+    z-index: 4;
+    position: relative;
+    height: 610px;
+    width: 350px;
+    left: -100px;
+}
+
+.navtext {
+    font-family: 'Exo', sans-serif;
+    position: relative;
+    top: 250px;
+    text-align: center;
+}
+
+#navbtnBox {
+    width: 130px;
+    position: relative;
+    top: 300px;
+    right: -25px;
+}
+
+.navbtn {
+    background: transparent;
+    margin: 8px;
+    border: solid #777 1px;
+    font-family: 'Exo', sans-serif;
+    color: #ffffff;
+    -webkit-animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+#myPicture {
+    height: 200px;
+    width: 200px;
+    top: 20px;
+    right: 75px;
+    border-radius: 100px;
+}
+
+#mainContent {
+    display: none;
+    position: relative;
+    top: -610px;
+    right: -268px;
+    z-index: 4;
+    background:rgba(255,255,255,0.5);
+    height: 610px;
+    width: 925px;
+    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+#logoBox {
+    position: relative;
+    top: -300px;
+    width: 10px;
+    background: white;
+    z-index: 5;
+}
+
+.logos {
+    width: 50px;
+    height: 50px;
 }

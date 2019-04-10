@@ -7,6 +7,7 @@ $(document).ready(function () {
         //var introBox = $("#introBox");
 
         $("#introBox").hide();
-        $("#aboutMeBox").style.display = "show";
+        document.getElementById("nav").style.display = "block";
+        document.getElementById("mainContent").style.display = "block";
     })
 });
