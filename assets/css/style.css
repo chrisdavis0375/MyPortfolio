@@ -159,6 +159,14 @@ h2 {
     animation: tracking-in-expand 0.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
+.projectPics {
+    position: relative;
+    top: -700px;    
+    right: -150px;
+    height: 300px;
+    width: 300px;
+}
+
 #contactBox {
     display: none;
     -webkit-animation: tracking-in-expand 0.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
