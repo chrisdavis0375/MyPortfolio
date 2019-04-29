@@ -15,6 +15,7 @@ $(document).ready(function () {
         console.log("About button clicked.");
 
         document.getElementById("aboutMeBox").style.display = "block";
+        document.getElementById("aboutMeText").style.display = "block";
         $("#contactBox").hide();
         $("#projectBox").hide();
         $("#resumeBox").hide();
@@ -27,6 +28,7 @@ $(document).ready(function () {
         $("#contactBox").hide();
         $("#aboutMeBox").hide();
         $("#resumeBox").hide();
+        $("#aboutMeText").hide();
     });
 
     $("#contactbtn").on('click', function() {
@@ -36,6 +38,7 @@ $(document).ready(function () {
         $("#aboutMeBox").hide();
         $("#projectBox").hide();
         $("#resumeBox").hide();
+        $("#aboutMeText").hide();
     });
 
     $("#resumebtn").on('click', function() {
@@ -45,5 +48,6 @@ $(document).ready(function () {
         $("#contactBox").hide();
         $("#projectBox").hide();
         $("#aboutMeBox").hide();
+        $("#aboutMeText").hide();
     });
 });
