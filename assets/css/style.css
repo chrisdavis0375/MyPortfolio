@@ -120,7 +120,7 @@ h2 {
     top: 50px;
     right: -100px;
     border-left: solid #696969 4px;
-    height: 800px;
+    height: 1000px;
     width: 50px;
 }
 
@@ -157,7 +157,7 @@ h2 {
 
 .aboutMePictures {
     position: relative;
-    top: -700px;
+    top: -900px;
     right: -180px;
     opacity: 0.8;
     margin: 60px 2px 60px 2px;
@@ -184,11 +184,31 @@ h2 {
 
 .projectPics {
     position: relative;
-    top: -700px;    
-    right: -150px;
-    height: 300px;
+    top: -1225px;
+    right: -275px;
+    height: 200px;
     width: 500px;
+    border: solid #777 8px;
+    box-shadow: black 10px 10px 10px 10px;
+    margin-bottom: 50px;
 }
+
+
+.productGenieText {
+    position: relative;
+    top: -700px;
+    right: -125px;
+    font-family: 'Exo', sans-serif;
+}
+
+.trainSchedulerText {
+    position: relative;
+    top: -650px;
+    right: -125px;
+    font-family: 'Exo', sans-serif;
+}
+
+
 
 #contactBox {
     display: none;
@@ -199,7 +219,7 @@ h2 {
 #contactText {
     position: relative;
     right: -200px;
-    top: -700px;
+    top: -900px;
     
 }
 
@@ -211,6 +231,6 @@ h2 {
 
 #resumePic {
     position: relative;
-    top: -750px;
+    top: -950px;
     right: -150px;
 }

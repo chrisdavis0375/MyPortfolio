@@ -92,7 +92,7 @@
     -webkit-animation:move-background 100s linear infinite;
     animation:move-background 100s linear infinite;
   }
-  img{
+#main-background{
     height: 70vh;
     width:70vh;
     position: absolute;

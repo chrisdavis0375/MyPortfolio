@@ -14,21 +14,20 @@
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Exo|Merienda" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/background.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/intro.css">
     <link rel="stylesheet" href="assets/css/animista.css">
     <!--Link app.js-->
-    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <!--<<script type="text/javascript" src="assets/javascript/app.js"></script>-->
 </head>
 
 <body>
-
-    <!--Container for animated background-->
 
     <div class="background-container">
         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt="">
         <div class="stars"></div>
         <div class="twinkling"></div>
         <div class="clouds"></div>
+    </div>
 
         <!--Introduction Box-->
 
@@ -42,169 +41,11 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <button id="portfoliobtn">Portfolio</button>
+                    <a href = "views/about.html"><button id="portfoliobtn">Portfolio</button></a>
                 </div>
             </div>
 
         </div>
-
-        <!--Nav area-->
-
-        <div class="container">
-            <div class="col-md-12">
-                <div id="nav">
-                    <img src="assets/images/Portfolio.jpg" id="myPicture">
-                    <p class="navtext"><strong>Chris Davis</strong></p>
-                    <p class="navtext">Full Stack Web Developer</p>
-                    <div id="navbtnBox">
-                        <button id = "aboutbtn" class="navbtn">About</button>
-                        <button id = "workbtn" class="navbtn">See my work</button>
-                        <button id = "contactbtn" class="navbtn">Contact</button>
-                        <button id = "resumebtn" class="navbtn">Resume</button>
-                    </div>
-                </div>
-            </div>
-
-            <!--Main Content area for About Me-->
-
-            <div class = "container" id="mainContent">
-                <div id = "aboutMeBox">
-                <h3 class = "header">About Me</h3>
-                <div id = "verticalLine"></div>
-                <!--Logos-->
-
-                    <img class="gitLogo" src="assets/images/gitlogo.jpg">
-                    <img class ="linkedLogo" src="assets/images/linkedinlogo.jpg">
-
-
-
-                <!--Background pictures-->
-
-                <div id = "picturebackground">
-
-                    <img class = "aboutMePictures" src = "assets/images/aboutpicture1.jpg">
-                    <img class = "aboutMePictures" src = "assets/images/aboutpicture2.jpg">
-                    <img class = "aboutMePictures" src = "assets/images/aboutpicture3.jpg">
-                    <img class = "aboutMePictures" src = "assets/images/aboutpicture4.jpg">
-                    <img class = "aboutMePictures" src = "assets/images/aboutpicture5.jpg">
-                    <img class = "aboutMePictures" src = "assets/images/aboutpicture6.jpg">
-                    <img class = "aboutMePictures" src = "assets/images/aboutpicture7.jpg">
-                    <img class = "aboutMePictures" src = "assets/images/aboutpicture8.jpg">
-                    <img class = "aboutMePictures" src = "assets/images/aboutpicture9.jpg">
-
-                </div>
-
-                <!--Issues with using CSS to divide text around photos so I used line breaks for spacing-->
-        <div id = "aboutMeText">
-            <p>Hello, my name is Chris Davis and I just recently moved to Arizona to pursue a career in Web Development.
-                I am currently enrolled in Arizona State University's coding bootcamp for full stack development.
-                I was born and raised in Hot Springs, Arkansas and as long as I can remember I have always had a deep passion
-                for learning the newest technologies and understanding how they work.</p>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <p>My hobbies include coding my ideas to life, building and modifying my own computers, staying in shape, and playing A LOT of video games. I'm currently fluent in 
-                 HTML5, CSS, Javascript, and MySQL. I have also been exposed to Bootstrap and other CSS libraries, jQuery, nodejs, and npm packages.</p>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <p>I am in the process of learning back-end development starting with MySQL and MySQL workbench and expected to 
-                 graduate ASU by August 5th, 2019. Lastly I have worked in an agile environment with my fellow classmates 
-                 and used github and gitbash for version control.</p>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <p>If you have any questions for me or would like to reach out 
-                    to me please feel free to contact me by emailing me at chrisdavis0375@gmail.com.</p>
-        </div>
-            </div>
-
-
-
-
-            <div id = "projectBox">
-                    <h3 class = "header">Projects</h3>
-                    <div id = "verticalLine"></div>
-
-                    <img class="gitLogo" src="assets/images/gitlogo.jpg">
-                    <img class ="linkedLogo" src="assets/images/linkedinlogo.jpg">
-
-                    <a target = "_blank" href = "https://sandtr0ut.github.io/Project1Group3/"><img class = "projectPics" src = "assets/images/productgenie.jpg"></a>
-                    <a target = "_blank" href = "https://chrisdavis0375.github.io/Train-Scheduler/"><img class = "projectPics" src = "assets/images/Train-Scheduler.jpg.JPG"></a>
-                    <!--Logos-->
-    
-                        <img class="logos" src="assets/images/gitlogo.jpg">
-                        <img class="logos" src="assets/images/linkedinlogo.jpg">
-                </div>
-
-                <div id = "contactBox">
-                        <h3 class = "header">Contact Me</h3>
-                        <div id = "verticalLine"></div>
-                        <img class="gitLogo" src="assets/images/gitlogo.jpg">
-                        <img class ="linkedLogo" src="assets/images/linkedinlogo.jpg">
-                        <div id = "contactText">
-                        <p>LinkedIn: <a href = "https://www.linkedin.com/in/chris-davis-759a99177/">https://www.linkedin.com/in/chris-davis-759a99177/</a></p>
-                        <p>GitHub: <a href = "https://chrisdavis0375.github.io/">https://chrisdavis0375.github.io/</a></p>
-                        <p>Email: chrisdavis0375@gmail.com</p>
-                        <p>Phone: 501-617-3889</p>
-                        </div>
-                        <!--Logos-->
-        
-                            <img class="logos" src="assets/images/gitlogo.jpg">
-                            <img class="logos" src="assets/images/linkedinlogo.jpg">
-                    </div>
-
-                    <div id = "resumeBox">
-                            <h3 class = "header">Resume</h3>
-                            <div id = "verticalLine"></div>
-                            <img class="gitLogo" src="assets/images/gitlogo.jpg">
-                            <img class ="linkedLogo" src="assets/images/linkedinlogo.jpg">
-                            <embed  id = "resumePic" src="assets/images/DeveloperResume.pdf" width="800px" height="1100px" />
-                            <!--Logos-->
-            
-                                <img class="logos" src="assets/images/gitlogo.jpg">
-                                <img class="logos" src="assets/images/linkedinlogo.jpg">
-                        </div>
-            </div>
-            </div>
-        </div>
-
 </body>
 
 </html>

@@ -1,0 +1,185 @@
+#nav {
+  z-index: 4;
+  position: absolute;
+  top: 0px;
+  height: 657px;
+}
+
+.navtextname {
+  font-family: "Exo", sans-serif;
+  position: absolute;
+  top: 240px;
+  left: 125px;
+}
+
+.navtext {
+  font-family: "Exo", sans-serif;
+  position: absolute;
+  top: 275px;
+  right: 75px;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+}
+
+#navbtnBox {
+  width: 130px;
+  position: absolute;
+  top: 350px;
+  right: 150px;
+}
+
+.navbtn {
+  background: transparent;
+  margin: 8px;
+  border: solid #777 1px;
+  font-family: "Exo", sans-serif;
+  color: #ffffff;
+  -webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1)
+    both;
+  animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+#myPicture {
+  position: absolute;
+  top: 20px;
+  right: 75px;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+#content {
+  font-family: "Exo", sans-serif;
+  overflow-y: auto;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 4;
+  height: 657px;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+#header {
+  position: fixed;
+  top: 25px;
+  left: 50px;
+  z-index: 6;
+  font-family: "Exo", sans-serif;
+}
+
+#horizontal {
+  position: relative;
+  top: 50px;
+  border-bottom: solid #777 2px;
+}
+
+.gitLogo {
+  position: sticky;
+  position: absolute;
+  top: 130px;
+  right: 10px;
+  width: 45px;
+  z-index: 7;
+}
+
+.linkedLogo {
+  position: sticky;
+  position: absolute;
+  top: 80px;
+  right: 10px;
+  width: 45px;
+  z-index: 7;
+}
+
+#trainPic {
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  top: 150px;
+  right: 70px;
+  border: solid #777 4px;
+  box-shadow: black 4px 4px 4px 4px;
+}
+#trainHeader {
+  position: absolute;
+  top: 110px;
+  left: 50px;
+  width: 400px;
+}
+#trainText {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  width: 400px;
+}
+
+#geniePic {
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  top: 600px;
+  right: 70px;
+  border: solid #777 4px;
+  box-shadow: black 4px 4px 4px 4px;
+}
+#genieHeader {
+  position: absolute;
+  top: 560px;
+  left: 50px;
+  width: 400px;
+}
+#genieText {
+  position: absolute;
+  top: 600px;
+  left: 50px;
+  width: 400px;
+}
+
+#starWarsHeader {
+  position: absolute;
+  top: 1640px;
+  left: 50px;
+  width: 400px;
+}
+#starwarsPic {
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  top: 1680px;
+  right: 70px;
+  border: solid #777 4px;
+  box-shadow: black 4px 4px 4px 4px;
+}
+#starwarsText {
+  position: absolute;
+  top: 1680px;
+  left: 50px;
+  width: 400px;
+}
+
+#OnlineDigitalPic {
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  top: 1130px;
+  right: 70px;
+  border: solid #777 4px;
+  box-shadow: black 4px 4px 4px 4px;
+}
+
+#OnlineDigitalText {
+  position: absolute;
+  top: 1130px;
+  left: 50px;
+  width: 400px;
+}
+
+#OnlineDigitalHeader {
+  position: absolute;
+  top: 1090px;
+  left: 50px;
+  width: 400px;
+}

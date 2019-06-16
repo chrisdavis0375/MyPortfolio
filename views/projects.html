@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chris Davis</title>
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!--jQuery CDN-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Exo|Merienda" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/background.css">
+    <link rel="stylesheet" href="../assets/css/projects.css">
+    <link rel="stylesheet" href="../assets/css/animista.css">
+    <!--Link app.js-->
+    <script type="text/javascript" src="../assets/javascript/app.js"></script>
+</head>
+
+<body>
+
+
+    <!--Container for animated background-->
+
+    <div class="background-container">
+        <img id = "main-background" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt="">
+        <div class="stars"></div>
+        <div class="twinkling"></div>
+        <div class="clouds"></div>
+
+
+        <div class="col-lg-3" id="nav">
+            <div>
+                <img src="../assets/images/Portfolio.jpg" id="myPicture">
+                <p class="navtextname"><strong>Chris Davis</strong></p>
+                <p class="navtext">Full Stack Web Developer</p>
+                <div id="navbtnBox">
+                    <a href = "about.html"><button id="aboutbtn" class="navbtn">About</button></a>
+                    <a href = "projects.html"><button id="workbtn" class="navbtn">See my work</button></a>
+                    <a href = "contact.html"><button id = "contactbtn" class="navbtn">Contact</button></a>
+                    <a href = "resume.html"><button id = "resumebtn" class="navbtn">Resume</button></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-9" id="content">
+                <h3 id = "header">Projects</h3>
+                <hr id = "horizontal">
+
+                <!--Logos-->
+
+                <a target = "_blank" href = "https://github.com/chrisdavis0375"><img class="gitLogo" src="../assets/images/gitlogo.jpg"></a>
+                <a target = "_blank" href = "https://www.linkedin.com/in/chris-davis-759a99177/"><img class ="linkedLogo" src="../assets/images/linkedinlogo.jpg"></a>
+
+
+            <a target = "_blank" href = "https://chrisdavis0375.github.io/Train-Scheduler/"><img id = "trainPic" src = "../assets/images/Train-Scheduler.jpg.JPG"></a>
+            <h4  id = "trainHeader" class = "text-center">Train Scheduler</h4>
+            <p id = "trainText">Train Scheduler allows you to be able to manage different trains estimated time of arrival, the frequency at which they travel, and their destinations.
+                <br>
+                <br>
+                <strong>How it works:</strong>
+                <br>
+                The user can add a new train to the scheduler by navigating to the bottom of the page and typing in a new trains name, destination, frequency, and ETA. After clicking submit the new train will appear in the train table and also be stored in a firebase database.
+                <br>
+                <br>
+                <strong>Technologies used:</strong>
+                <br>
+                HTML5, CSS, Bootstrap, Javascript, jQuery, and Firebase 
+            </p>
+
+            <a target = "_blank" href = "https://chrisdavis0375.github.io/Product-Genie/"><img id = "geniePic" src = "../assets/images/productgenie.jpg"></a>
+            <h4 id = "genieHeader" class = "text-center">Product Genie</h4>
+            <p id = "genieText">Product Genie is a searching app that allows the user to search for a wide variety of different items using Ali Seeks API. Genie also returns a list of articles related to the users search mixed with reviews.
+                <br>
+                <br>
+                <strong>How it Works:</strong>
+                <br>
+                Once the user searches for a product using the search box Ali Seeks API will retrieve a list of results and return them to the user on the first row of the page along with recent searches followed by articles and reviews that have working links that can redirect the user to another tab.
+                <br>
+                <br>
+                <strong>Technologies used:</strong>
+                <br>
+                HTML5, CSS, Animista, Bootstrap, Javascript, jQuery, and Firebase
+            </p>
+            
+            <a target = "_blank" href = "https://thawing-savannah-52447.herokuapp.com/"><img id = "OnlineDigitalPic" src = "../assets/images/OnlineDigitalGraphics.JPG"></a>
+            <h4 id = "OnlineDigitalHeader" class = "text-center">Online Digital Graphics</h4>
+            <p id = "OnlineDigitalText">This app in progress is an extension to an existing graphics site that will allow the user to place an order for business cards, banners, vinyls, etc. online rather than browsing products and making a call to Online Digital Graphics to place an order.
+                <br>
+                <br>
+                <strong>How it works:</strong>
+                <br>
+                After the user creates their own personal login they will be able to browse a catalog of different products and personalize their product of choice which then genetates a price quote. The user can then choose whether or not to place their order.
+                <br>
+                <br>
+                <strong>Technologies used:</strong>
+                <br>
+                HTML5, CSS, Javascript, jQuery, AJAX, API's, Bootstrap, MySQL, NPM packs(Sequelize, bcrypt, axios, express-handlebars, chai and mocha), and Heroku.
+            </p>
+
+            <a target = "_blank" href = "https://chrisdavis0375.github.io/StarWarsRPG/"><img id = "starwarsPic" src = "../assets/images/StarWars.JPG"></a>
+            <h4 id = "starWarsHeader" class = "text-center">Star Wars RPG</h4>
+            <p id = "starwarsText">This RPG allows the user to play as one of four iconic star wars characters and duel with the remaining three. In order to win the user must choose their opponents order wisely base on their stats.
+                <br>
+                <br>
+                <strong>How it works:</strong>
+                <br>
+                When the user selects the character they would like to use, the remaining three characters will become opponents. The user will then have to select an opponent which will then become a defender. When the user clicks the attack button damage will be inflicted on the opponent while the opponent inflicts counter damage. Once the opponents health is at 0 the user will be able to select another opponent. If all opponents are defeated the user wins.
+                <br>
+                <br>
+                <strong>Technologies used:</strong>
+                <br>
+                HTML5, CSS, and Javascript
+            </p>
+        </div>
+
+</body>
+
+</html>
